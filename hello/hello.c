@@ -1,15 +1,27 @@
-#include <stdio.h> // Include standard input-output library
+#include <stdio.h> 
+
+#define NEW_LINE printf("\n");
+#define PI_GRECO 3.14159265358;
+
 
 int main()
 {
     printf("Hello WORLD!\n\n\n");
 
-    char name[32]; // Define a character array to store the name
+
+    NEW_LINE;
+
+    char name[32]; 
+
+    int i =10;
+
+  
 
     printf("Enter a name: ");
-    scanf("%s", name); // Read user input into the `name` variable
-    
-    // Print a message with the entered name
+
+    scanf("%s", name);  
+
+
     printf("\nHello\t%s\n\n\n", name);
 
     return 0;
