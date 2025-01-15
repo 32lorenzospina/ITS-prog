@@ -1,1 +1,27 @@
+#include <stdio.h> // Include standard i/o
+
+int main()
+{
+
+    char nome[32]; // Define a character array to store the name
+
+    char cognome[32]; // Define a character array to store the name
+
+    char età[32]; // Define a character array to store the name
+    
+
+    printf("Inserisci il tuo nome: ");
+
+    printf("Inserisci il tuo cognome: ");
+    
+    scanf("%s", nome); // Read user input into the `name` variable
+        scanf("%s", cognome); // Read user input into the `name` variable
+
+    
+    // Print a message with the entered name
+    printf("\nBenvenuto\t%s\n\n\n", nome cognome, Grazie per aver usato il nostro programma.  
+Ti auguriamo Buone Feste);
+
+    return 0;
+}
 
