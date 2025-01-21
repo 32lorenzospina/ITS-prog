@@ -1,5 +1,8 @@
 #include <stdio.h> 
+#include <stdbool.h>
 
+
+#define degub_PRINT
 #define NEW_LINE printf("\n");
 #define PI_GRECO 3.14159265358;
 
