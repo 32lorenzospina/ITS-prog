@@ -15,7 +15,7 @@
 
 // Funzione main
 int main() {
-    int x = 10, y = 5, z = 3;
+    int x = 10, y = 5;
 
     // Stampa nome e cognome
     PRINTOUT;
@@ -29,7 +29,7 @@ int main() {
 
     // Calcolo complesso ditutte le operazioni matematiche dichiarate
     double risultato = divisione(
-        somma(moltiplicazione(x, z), modulo(y, z)),
+        somma(moltiplicazione(x, y), modulo(x, y)),
         sottrazione(x, y)
     );
     // Stampa del risultato
