@@ -35,8 +35,8 @@ int main() {
 
     // Suggerimenti di risparmio
     switch ((int)(totale / 50)) {
-        case 0:
-            printf("Ottimo! Continua così.\n");
+        case 0: 
+            printf("Ottimo! Continua così.\n");     
             break;
         case 1:
             printf("Considera di ridurre i consumi.\n");
@@ -49,5 +49,6 @@ int main() {
     // Riepilogo finale
     printf("Riepilogo spese:\nElettricità: %f\nAcqua: %f\nGas: %f\nInternet: %f\nTotale: %f\n", elettricita, acqua, gas, internet, totale);
     
+     
     return 0;
 } 
