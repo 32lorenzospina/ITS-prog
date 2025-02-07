@@ -2,7 +2,7 @@
 
 #define ROWS 4
 #define COLS 3
-
+  
 int main() {
     float matrix[ROWS][COLS] = {
         {1.5, -8.8, 10.0},
